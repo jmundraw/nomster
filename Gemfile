@@ -15,6 +15,9 @@ gem 'sprockets', '2.11.0'
 # Use Google Simple Form
 gem 'simple_form'
 
+# Add carrierwave gem for uploading photos
+gem 'carrierwave'
+
 # Use SCSS for stylesheets
 gem 'sass-rails'
 

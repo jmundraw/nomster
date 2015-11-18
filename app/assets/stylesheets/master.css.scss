@@ -1,3 +1,12 @@
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans);
+@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);
+@import url(https://fonts.googleapis.com/css?family=Architects+Daughter);
+@import url(https://fonts.googleapis.com/css?family=Rock+Salt);
+@import url(https://fonts.googleapis.com/css?family=Chewy);
+@import url(https://fonts.googleapis.com/css?family=Frijole);
+@import url(https://fonts.googleapis.com/css?family=Bad+Script);
+
+
 body {
   background: url('/assets/fresh_snow.png');
 font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
@@ -22,17 +31,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar.navbar-inverse {
-  background-color: url('/assets/footer_lodyas.png');
-  border-radius: 0;
-  box-shadow: 0px 2px 5px red;
+  background-color: rgba(0,0,0,0.7);
   margin-bottom: 0;  
+  border-style: none; 
 }
 
 .navbar-inverse .navbar-brand {
   color: red;
-  font-family: 'exoregular', sans-serif;
-  font-size: 33px;
-  letter-spacing: 1px;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 40px;
 }
 
 .field_with_errors {
@@ -78,7 +85,7 @@ blockquote p {
 }
 
 .carousel-caption {
-  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: 'Bad Script', cursive;
   font-size: 60px;
   font-weight: 100; 
   text-shadow: rgba(250,0,0,0.95) 2px 2px;
@@ -91,4 +98,54 @@ blockquote p {
 
 .carousel {
   box-shadow: 0px 3px 8px #2a2a2a;
+}
+
+
+
+/* For the button */
+.animate
+{
+  transition: all 0.1s;
+  -webkit-transition: all 0.1s;
+}
+
+.action-button
+{
+  position: relative;
+  padding: 10px 10px;
+  margin: 0px 10px 10px 0px;
+  float: left;
+  border-radius: 8px;
+  font-family: 'Josefin Sans', 'sans-serif';
+  font-size: 20px;
+  color: #FFF;
+  text-decoration: none;  
+}
+
+.red
+{
+  background-color: #E74C3C;
+  border-bottom: 5px solid #BD3E31;
+  text-shadow: 0px -2px #BD3E31;
+}
+
+.blue
+{
+  background-color: #3498DB;
+  border-bottom: 5px solid #2980B9;
+  text-shadow: 0px -2px #2980B9;
+}
+
+.yellow
+{
+  background-color: #F2CF66;
+  border-bottom: 5px solid #D1B358;
+  text-shadow: 0px -2px #D1B358;
+}
+
+.action-button:active
+{
+  transform: translate(0px,5px);
+  -webkit-transform: translate(0px,5px);
+  border-bottom: 1px solid;
 }

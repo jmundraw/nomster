@@ -2,14 +2,14 @@
 @import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);
 @import url(https://fonts.googleapis.com/css?family=Architects+Daughter);
 @import url(https://fonts.googleapis.com/css?family=Rock+Salt);
-@import url(https://fonts.googleapis.com/css?family=Chewy);
-@import url(https://fonts.googleapis.com/css?family=Frijole);
 @import url(https://fonts.googleapis.com/css?family=Bad+Script);
+@import url(https://fonts.googleapis.com/css?family=Slabo+27px);
 
 
 body {
-  background: url('/assets/fresh_snow.png');
-font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+background: url('/assets/fresh_snow.png');
+font-family: "Josefin", sans-serif;
+font-size: 20px; 
 }
 
 .booyah-box {
@@ -28,6 +28,7 @@ font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book An
 h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 	padding: 0;
+  font-family: 'Slabo 27px', serif; 
 }
 
 .navbar.navbar-inverse {
@@ -148,4 +149,9 @@ blockquote p {
   transform: translate(0px,5px);
   -webkit-transform: translate(0px,5px);
   border-bottom: 1px solid;
+}
+
+.comment {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 20px; 
 }

@@ -26,3 +26,11 @@
 			</blockquote>
 		</div>
 <% end %> 
+
+<div class="clear"></div>
+
+<h2 class="text-center">My Places</h2>
+
+<% @user.places.each do |place| %>
+	<%= place.inspect %>
+<% end %> 

@@ -15,6 +15,9 @@ gem 'sprockets', '2.11.0'
 # Use Google Simple Form
 gem 'simple_form'
 
+# Add gem for pagination
+gem 'kaminari'
+
 # Add carrierwave gem for uploading photos
 gem 'carrierwave'
 

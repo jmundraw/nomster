@@ -1,8 +1,8 @@
 class Place < ActiveRecord::Base
 	paginates_per 10
 	belongs_to :user
-	has_many :comments
-	has_many :photos
+	has_many :comments, :dependent => :destroy
+	has_many :photos, :dependent => :destroy
 
 	
 	geocoded_by :address
